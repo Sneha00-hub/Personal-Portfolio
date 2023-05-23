@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color:rgb(178, 206, 235);
+  font-family: 'Titillium Web', sans-serif;
+  height: 100vh;
+  font-weight: bold;
+  transition: transform 0.3s ease-in;
+
+}
+
+.sidebar nav {
+  padding: 18px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 22px;
+  padding: 20px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  width: 90vw;
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+  height: 58vh;
+  width: 80vw;
+  margin: 152px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stuInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.Hey {
+  font-size: 40px;
+}
+
+.name {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.about {
+  font-size: 35px;
+}
+
+.moreabout {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 23px;
+}
+
+.buttons {
+  margin-top: 34px;
+}
+
+.btn {
+  padding: 6px 10px;
+  border-radius: 20px;
+  color: white;
+  background-color: hotpink;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.btn-sm {
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: hotpink;
+}
+
+.stupic img {
+  width: 280px;
+  height: 58vh;
+}
+
+.contactform {
+  padding-top: 144px;
+  padding: 0 34px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.contactform h1 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.blogItem {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.blogcontainer h1 {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.blogItem p {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.aboutme h2 {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 12px;
+}
+
+.aboutme p {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 12px;
+}
+
+.skillcontainer {
+  padding: 12px;
+}
+
+.skillItem {
+  align-items: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+}
+
+.skill {
+  width: 265px;
+  height: 6px;
+  background-color: greenyellow;
+  border: 2px solid black;
+}
+
+.hundred {
+  width: 265px;
+  background-color: brown;
+}
+
+.fifty {
+  width: 125px;
+  background-color: blueviolet;
+}
+
+.t5 {
+  width: 75px;
+  background-color: aqua;
+}
+
+.crossbarline {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+
+.crosssign {
+  margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 20vw;
+  }
+
+  .main {
+    width: 80vw;
+  }
+
+  .infocontainer {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+  }
+
+  .stupic img {
+    width: 200px;
+    height: auto;
+  }
+
+  .moreabout {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+
+  .btn-sm {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .infocontainer {
+    margin: 50px auto;
+  }
+}
