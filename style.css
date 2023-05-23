@@ -120,7 +120,7 @@
 }
 
 .blogItem p {
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .aboutme h2 {
@@ -230,3 +230,4 @@
     margin: 50px auto;
   }
 }
+
